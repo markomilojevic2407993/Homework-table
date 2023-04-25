@@ -1,0 +1,51 @@
+.seriaA{
+    width: 60vw;
+    margin: auto;
+    cursor: pointer;
+    font-size: 1rem;
+    
+
+}
+.seriaA th, td{
+    border-bottom: 1px solid black;
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 7px;
+    
+}
+.text{
+    font-size: 3rem;
+    font-weight: bold;
+}
+tr:nth-child(-n+4) td:first-child {
+    background-color: rgb(116, 116, 209);
+  }
+tr:nth-child(5) td:first-child   {
+  background-color:  rgb(204, 83, 83);
+}
+
+tr:nth-child(6) td:first-child  {
+    background-color: rgb(68, 153, 125);
+}
+td:nth-child(2):hover {
+    text-decoration: underline;
+
+  }
+  tr:nth-child(18) td:first-child  {
+    background-color: rgb(168, 83, 41);
+}
+tr:nth-child(19) td:first-child  {
+    background-color: rgb(168, 83, 43);
+}
+tr:nth-child(20) td:first-child  {
+    background-color: rgb(168, 32, 32);
+}
+.abbr{
+    text-decoration: none;
+}
+.seriaA th{
+    border: 1px dotted darkblue;
+}
+@media only screen and (max-width:600px) {
+    
+}
